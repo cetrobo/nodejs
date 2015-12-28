@@ -4,7 +4,7 @@ var querystring = require('querystring');
 
 var nouveauvisiteur = function(req, res) {
 
-
+ /*
 		  res.writeHead(200,{"Content-Type": "text/plain"});
 		  var params = querystring.parse(url.parse(req.url).query);	
 		  console.log(params);
@@ -22,7 +22,7 @@ var nouveauvisiteur = function(req, res) {
 		  //var page=url.parse(req.url).pathname;
 		  //console.log(page);
 		  //res.end('<strong>Salut tout le monde , merci !</strong>');
-		  /* if(page == '/'){
+		  if(page == '/'){
 
 		   	res.write('bienvenue sur lacceuil');
 
@@ -32,7 +32,7 @@ var nouveauvisiteur = function(req, res) {
 
 		   }
 		   */
-	res.end();	   
+	res.end('HELLO WORLD');	   
 }
 
 var server = http.createServer(nouveauvisiteur);
