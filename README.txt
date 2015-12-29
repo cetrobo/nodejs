@@ -1,7 +1,6 @@
-//server web basic run 
+<h1> nodejs</h1>
 
-index.js
+Node js sample codes for beginners. We can get output of every nodejs codes using terminal. like </br>
 
-//server web with rooting expressjs
 
-run server.js
+
