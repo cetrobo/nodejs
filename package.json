@@ -2,5 +2,23 @@
   "dependencies": {
     "express": "^4.13.3",
     "jade": "^1.11.0"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "nodejs",
+  "description": "//server web basic run",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cetrobo/nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cetrobo/nodejs/issues"
+  },
+  "homepage": "https://github.com/cetrobo/nodejs#readme"
 }

@@ -1,10 +1,45 @@
 var http = require('http'); // l'appel d'un bibliothèque qui permet de nous créer un serveur web
 var url= require('url');
 var querystring = require('querystring');
+var express=require('express');
+var app=express();
 
-var nouveauvisiteur = function(req, res) {
 
- /*
+
+
+var server=http.createServer(function(req,res){
+
+res.end('HELLo WORD');
+
+
+});
+
+var port=Number(process.env.PORT || 8080);
+server.listen(port);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*var nouveauvisiteur = function(req, res) {
+
+ 
 		  res.writeHead(200,{"Content-Type": "text/plain"});
 		  var params = querystring.parse(url.parse(req.url).query);	
 		  console.log(params);
@@ -31,12 +66,12 @@ var nouveauvisiteur = function(req, res) {
 		   	res.write('bienvenue sur index');
 
 		   }
-		   */
+		
 	res.end('HELLO WORLD');	   
 }
+   */
+//var server = http.createServer(nouveauvisiteur);
 
-var server = http.createServer(nouveauvisiteur);
-server.listen(8080);
 
 
 //req c'est un object contient tout les informations demandé par le visiteur
