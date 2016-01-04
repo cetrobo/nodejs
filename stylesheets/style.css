@@ -1,0 +1,137 @@
+.msg-title {
+  font-size: center;
+  text-align: center;
+  width: 57%;
+  margin: 0 auto;
+  font-family: 'Helveticane', Helveticane, Arial, sans-serif;
+}
+#espace {
+  margin-top: 60%;
+}
+.img-thumb {
+  margin: -551px auto;
+  opacity: 0.2;
+}
+#backgrounds {
+  padding-top: 550px;
+}
+#mywork {
+  padding-top: 150px;
+}
+.sujet-work {
+  margin-left: 414px;
+  font-family: 'Helveticane', Helveticane, Arial, sans-serif;
+}
+.first-title {
+  margin: -40px 1px 1px 413px;
+  font-family: 'Helveticane', Helveticane, Arial, sans-serif;
+  line-height: 5;
+}
+.title-work {
+  font-size: 39px;
+  font-family: 'Helveticane', Helveticane, Arial, sans-serif;
+}
+.aboutme-section2 {
+  width: 70%;
+  margin: -11px 0px 0px 250px;
+  font-family: 'Helveticane', Helveticane, Arial, sans-serif;
+}
+.exp-title {
+  margin: -199px 1px 1px 117px;
+  font-size: 33px;
+  font-family: 'Helveticane', Helveticane, Arial, sans-serif;
+}
+.title-section2 {
+  font-size: 150px;
+  font-family: 'Helveticane', Helveticane, Arial, sans-serif;
+}
+#title {
+  -moz-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  font-family: 'Helveticane', Helveticane, Arial, sans-serif;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  width: 50%;
+  font-weight: 5;
+  margin: -11px 1px 1px -300px;
+}
+.title-date {
+  -moz-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  font-family: 'Helveticane', Helveticane, Arial, sans-serif;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  width: 50%;
+  font-weight: 5;
+  margin: -11px 1px 1px -405px;
+}
+#section2 {
+  width: 70%;
+  position: relative;
+  margin: 460px auto 0;
+}
+p.section-contenue {
+  margin: -8px 0px 0px 349px;
+  font-family: 'Helveticane', Helveticane, Arial, sans-serif;
+}
+.section-thumb img {
+  float: right;
+  margin-top: -156px;
+  opacity: 0.2;
+}
+img {
+  width: 40%;
+}
+.section-title {
+  font-size: 28px;
+  font-family: 'Helveticane', Helveticane, Arial, sans-serif;
+  line-height: 5;
+}
+.line-section {
+  border: 1px solid white;
+  width: 63px;
+  margin-left: 25px;
+}
+.line-work {
+  border: 1px solid white;
+  width: 63px;
+  margin-left: 25px;
+}
+.border-works {
+  border: 1px solid white;
+  width: 63px;
+  margin-left: 267px;
+}
+.line-section2 {
+  border: 1px solid white;
+  width: 63px;
+  margin: 72px 0px 0px 116px;
+}
+#section {
+  width: 70%;
+  position: relative;
+  margin: 200px auto 0;
+}
+.post.title {
+  font-size: 80px;
+  margin-top: 250px;
+  font-family: 'Helveticane', Helveticane, Arial, sans-serif;
+  margin-left: 150px;
+}
+#header {
+  position: relative;
+  margin: 2% auto 0;
+}
+body {
+  background-color: black;
+  color: white;
+}
+.post-logo {
+  font-family: 'Helveticane', Helveticane, Arial, sans-serif;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-left: 200px;
+}

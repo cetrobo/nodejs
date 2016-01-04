@@ -1,0 +1,218 @@
+@color-body:white;
+@color-background-body:black;
+@font:'Helveticane',Helveticane,Arial,sans-serif;
+@post-size:14px;
+@post-spacing:2px;
+@post-transform:uppercase;
+@header-based:2%;
+@post-position-header:relative;
+@post-margin-header:2% auto 0;
+@post-title-size:80px;
+@post-title-margin:250px;
+@post-title-marg-left:150px;
+@post-logo-margin:200px;
+@section-width:70%;
+@section-position:relative;
+@section-margin:200px auto 0;
+@line-section-bord:1px solid white;
+@line-section-width:63px;
+@line-section-marg:25px;
+@section-title-height:5;
+@img-width:40%;
+@section-thumb:right;
+@section-thumb-marg:-156px;
+@section-thumb-opacity:0.2;
+@section-title-size:28px;
+@section-contenue:-8px 0px 0px 349px;
+@section2:460px auto 0;
+@title-rote:rotate(-90deg);
+@title-rot:rotate(-90deg);
+@title-marg:-11px 1px 1px -300px;
+@title-weight:600;
+@title-width:50%;
+@title-size:12px;
+@title-section2:150px;
+@exp-title: -199px 1px 1px 117px;
+@exp-size:33px;
+@line-section2:72px 0px 0px 116px;
+@about-width:70%;
+@about-margin:-11px 0px 0px 250px;
+@title-work:39px;
+@first-marg:-40px 1px 1px 413px;
+@work-marg:414px;
+@works-padding:150px;
+@border-works:267px;
+@title-weight:5;
+@backgrounds :550px;
+@img-thumb:-551px auto;
+@img-transp:0.2;
+@title-dates:-11px 1px 1px -405px;
+@espace:60%;
+@send-size:14px;
+@send-text:center;
+@send-width:57%;
+@send-margin:0 auto;
+
+.msg-title {
+    font-size: @send-text;
+    text-align: @send-text;
+    width: @send-width;
+    margin: @send-margin;
+    font-family: @font;
+}
+
+
+#espace{
+    
+        margin-top: @espace;
+}
+.img-thumb {
+    margin: @img-thumb;
+    opacity: @img-transp;
+}
+#backgrounds{
+    padding-top: @backgrounds;
+    
+}
+#mywork {
+    padding-top: @works-padding;
+}
+.sujet-work{
+    
+  margin-left: @work-marg;
+  font-family: @font;
+}
+
+.first-title {
+    margin: @first-marg;
+    font-family:@font;
+    line-height:@title-weight;
+}
+
+.title-work {
+    font-size: @title-work;
+    font-family: @font;
+}
+
+.aboutme-section2 {
+    width: @about-width;
+    margin: @about-margin;
+    font-family:@font;
+}
+.exp-title{
+    margin:@exp-title;
+    font-size: @exp-size;
+    font-family: @font;
+}
+.title-section2{
+    font-size: @title-section2;
+    font-family: @font;
+}
+
+
+  
+#title{
+    -moz-transform: @title-rote;
+	-webkit-transform: @title-rot;
+    font-family:@font;
+    font-size: @title-size;
+    letter-spacing: @post-spacing;
+    text-transform: @post-transform;
+    width: @title-width;
+    font-weight: @title-weight;
+    margin: @title-marg;
+}   
+
+.title-date{
+    -moz-transform: @title-rote;
+	-webkit-transform: @title-rot;
+    font-family:@font;
+    font-size: @title-size;
+    letter-spacing: @post-spacing;
+    text-transform: @post-transform;
+    width: @title-width;
+    font-weight: @title-weight;
+    margin: @title-dates;
+}
+
+#section2 {
+    width: @section-width;
+    position: @section-position;
+    margin: @section2;
+}
+    
+p.section-contenue {
+    margin: @section-contenue;
+    font-family: @font;
+}
+.section-thumb img {
+    float: @section-thumb;
+    margin-top: @section-thumb-marg;
+    opacity: @section-thumb-opacity;
+}
+
+img{
+    width: @img-width;
+    
+}
+
+
+.section-title {
+    font-size: @section-title-size;
+    font-family: @font;
+     line-height: @section-title-height;
+}
+.line-section {
+    border: @line-section-bord;
+    width: @line-section-width;
+     margin-left: @line-section-marg;
+}
+.line-work {
+    border: @line-section-bord;
+    width: @line-section-width;
+     margin-left: @line-section-marg;
+}
+
+.border-works{
+    border: @line-section-bord;
+    width: @line-section-width;
+     margin-left: @border-works;
+}
+.line-section2 {
+    border: @line-section-bord;
+    width: @line-section-width;
+    margin: @line-section2;
+}
+
+
+#section{
+    width: @section-width;
+    position: @section-position;
+    margin: @section-margin;
+    
+}
+.post.title {
+    font-size: @post-title-size;
+    margin-top: @post-title-margin;
+    font-family: @font;
+    margin-left: @post-title-marg-left;
+}
+
+#header {
+    position: @post-position-header;
+    margin: @post-margin-header;
+}
+
+body{
+    background-color:@color-background-body;
+    color:@color-body;
+}
+
+
+.post-logo {
+    font-family:@font;
+    font-size: @post-size;
+    letter-spacing: @post-spacing;
+    text-transform: @post-transform;
+    margin-left: @post-logo-margin;
+}

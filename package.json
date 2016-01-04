@@ -10,7 +10,11 @@
   "description": "//server web basic run",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.10.1",
+    "gulp": "^3.9.0",
+    "livereload": "^0.4.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cetrobo/nodejs.git"

@@ -1,19 +1,33 @@
 var http=require('http');
 var express=require('express');
 var jade=require('jade');
+var gulp=require('gulp');
+var less=require('gulp-less');
 var app=express();
+ //var less = require('less');
+
 
 //gestion des routes 
 
 var server=http.createServer(app);
-
 app.set('view engine','jade');
 
-app.get('/', function (req, res) {
-	 //res.setHeader('Content-Type', 'text/plain');
-	 res.render('index',{title:'homepage'});
- })
 
+app.use("/stylesheets",express.static(__dirname + "/stylesheets"));
+//get c'est elle qui va permettre à notre serveur de répondre aux requêtes HTTP
+// nous utilisons la méthode static de l'object express
+app.use("/img",express.static(__dirname+"/img"));
+app.use("/font",express.static(__dirname+"/font"));
+
+
+app.get('/',function(req,res){
+	
+	res.render('index');
+	
+});
+
+
+/*
 .get('/produit/:numproduit/fromage',function(req,res){
 	 //res.setHeader('Content-Type', 'text/plain');
 	 //res.end('vous etre dans le numero'+ req.params.numproduit);
@@ -25,10 +39,6 @@ app.get('/', function (req, res) {
 
  	 res.send('404','page introuvable');
 })*/
-
-
-
-
 
 server.listen(8080);
 
