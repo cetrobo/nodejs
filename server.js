@@ -9,6 +9,7 @@ var app=express();
 //gestion des routes 
 
 var server=http.createServer(app);
+var port = process.env.PORT || 8080;
 app.set('view engine','jade');
 
 
@@ -38,9 +39,9 @@ app.get('/',function(req,res){
 
 
 /*.use(function(req,res,next){
-
+    
  	 res.send('404','page introuvable');
 })*/
 
-server.listen(8080);
+server.listen(port);
 
