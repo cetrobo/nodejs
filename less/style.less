@@ -52,7 +52,40 @@
 @send-text:center;
 @send-width:57%;
 @send-margin:0 auto;
+@form-marg:101px;
+@form-text:center;
+@social-mrg:78px;
+@social-align:center;
+@ul-li-style:none;
+@ul-li-display:inline;
+@ul-li-padding:23px;
+@social-hover:600;
+@social-text:line-through;
 
+li {
+	a {
+		&:hover {
+			font-weight: @social-hover;
+			text-decoration: @social-text;
+		}
+	}
+}
+li a {
+    color: @color-body;
+    text-decoration: @ul-li-style;
+    font-family:@font;
+}
+
+ul li {
+    list-style: @ul-li-style;
+    display: @ul-li-display;
+    padding-right: @ul-li-padding;
+    text-align: @social-align;
+}
+#social {
+    margin-top:@social-mrg;
+    text-align: @social-align;
+}
 .msg-title {
     font-size: @send-text;
     text-align: @send-text;

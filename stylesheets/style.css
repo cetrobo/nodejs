@@ -1,3 +1,22 @@
+li a:hover {
+  font-weight: 600;
+  text-decoration: line-through;
+}
+li a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Helveticane', Helveticane, Arial, sans-serif;
+}
+ul li {
+  list-style: none;
+  display: inline;
+  padding-right: 23px;
+  text-align: center;
+}
+#social {
+  margin-top: 78px;
+  text-align: center;
+}
 .msg-title {
   font-size: center;
   text-align: center;

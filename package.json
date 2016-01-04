@@ -13,7 +13,8 @@
   "devDependencies": {
     "browser-sync": "^2.10.1",
     "gulp": "^3.9.0",
-    "livereload": "^0.4.0"
+    "livereload": "^0.4.0",
+    "nodemailer": "^1.11.0"
   },
   "repository": {
     "type": "git",
