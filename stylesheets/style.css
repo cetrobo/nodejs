@@ -36,6 +36,7 @@ ul li {
 .img-thumb {
   margin: -551px auto;
   opacity: 0.2;
+  width: 50%;
 }
 #backgrounds {
   padding-top: 550px;

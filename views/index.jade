@@ -4,6 +4,10 @@ html
     title portfolio
     link(rel='stylesheet', href='/stylesheets/style.css')
     link(rel='stylesheet', href='/stylesheets/animate.min.css')
+    meta(name='keywords', content='css animation, loading effect, animate, scroll loading, scroll animation')
+    script(type='text/javascript', src='http://code.jquery.com/jquery-2.1.4.js')
+    script(src='stylesheets/viewportchecker.js')
+    script(src='script/index.js')
   body
    #header
     h3.post-logo.animated.fadeInUp Achraf Benomar
@@ -34,7 +38,7 @@ html
       p.sujet-work Sujet :Application mobile d’achat de coupon de réduction
     #backgrounds
       .img-thumb
-        img(src=("./img/m.png"))
+        img(src=("./img/tp.png"))
      .title-date
         |ACHRAF BENAOMAR 2016  
         
@@ -42,7 +46,7 @@ html
     #send
       h2.msg-title Joignez-vous à ma liste de courrier électronique privé ou envoyez-moi un e-mail.
   #social
-       ul
+       ul.media
         li: a(href="#") Facebook
         li: a(href="#") Google+
         li: a(href="#") Linkedin   
