@@ -8,27 +8,26 @@
 @post-position-header:relative;
 @post-margin-header:2% auto 0;
 @post-title-size:80px;
-@post-title-margin:250px;
-@post-title-marg-left:150px;
+@post-title-margin:115px;
+@post-title-marg-left:193px;
 @post-logo-margin:200px;
 @section-width:70%;
 @section-position:relative;
 @section-margin:200px auto 0;
 @line-section-bord:1px solid white;
 @line-section-width:63px;
-@line-section-marg:25px;
+@line-section-marg:-13px;
 @section-title-height:5;
 @img-width:40%;
 @section-thumb:right;
 @section-thumb-marg:-156px;
 @section-thumb-opacity:0.2;
 @section-title-size:28px;
-@section-contenue:-8px 0px 0px 349px;
+@section-contenue:-15px 0px 0px 336px;
 @section2:460px auto 0;
 @title-rote:rotate(-90deg);
 @title-rot:rotate(-90deg);
 @title-marg:-11px 1px 1px -300px;
-@title-weight:600;
 @title-width:50%;
 @title-size:12px;
 @title-section2:150px;
@@ -38,10 +37,10 @@
 @about-width:70%;
 @about-margin:-11px 0px 0px 250px;
 @title-work:39px;
-@first-marg:-40px 1px 1px 413px;
-@work-marg:414px;
+@first-marg:-62px 1px 1px 506px;
+@work-marg:501px;
 @works-padding:150px;
-@border-works:267px;
+@border-works:392px;
 @title-weight:5;
 @backgrounds :550px;
 @img-thumb:-551px auto;
@@ -61,7 +60,23 @@
 @ul-li-padding:23px;
 @social-hover:600;
 @social-text:line-through;
+@logo-post-top:6em;
+@section-cont-line:2;
+@sections-title-marg:-17px;
+@hid:0;
+@visibl:1;
+@p-sect-width:30%;
+@border-works-marg:89px;
+@first-size:23px;
 
+
+
+.hidden{
+     opacity:@hid;
+}
+.visible{
+     opacity:@visibl;
+}
 li {
 	a {
 		&:hover {
@@ -118,8 +133,9 @@ ul li {
 
 .first-title {
     margin: @first-marg;
-    font-family:@font;
+    font-size:@first-size;
     line-height:@title-weight;
+    text-decoration: @social-text;
 }
 
 .title-work {
@@ -131,6 +147,7 @@ ul li {
     width: @about-width;
     margin: @about-margin;
     font-family:@font;
+    line-height:@section-cont-line;
 }
 .exp-title{
     margin:@exp-title;
@@ -177,6 +194,8 @@ ul li {
 p.section-contenue {
     margin: @section-contenue;
     font-family: @font;
+    line-height: @section-cont-line;
+    width:@p-sect-width;
 }
 .section-thumb img {
     float: @section-thumb;
@@ -193,7 +212,8 @@ img{
 .section-title {
     font-size: @section-title-size;
     font-family: @font;
-     line-height: @section-title-height;
+    line-height: @section-title-height;
+    margin-left:@sections-title-marg;
 }
 .line-section {
     border: @line-section-bord;
@@ -210,6 +230,7 @@ img{
     border: @line-section-bord;
     width: @line-section-width;
      margin-left: @border-works;
+    margin-top:@border-works-marg;
 }
 .line-section2 {
     border: @line-section-bord;
@@ -248,4 +269,5 @@ body{
     letter-spacing: @post-spacing;
     text-transform: @post-transform;
     margin-left: @post-logo-margin;
+    margin-top:@logo-post-top;
 }
