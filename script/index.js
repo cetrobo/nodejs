@@ -1,6 +1,22 @@
-$(document).ready(function() {
-    $('.section-title,.line-section,.section-contenue,.section-thumb,#title,.title-section2,.exp-title,.line-section2,.aboutme-section2,.title-work,.border-works,.first-title,.sujet-work,.img-thumb,.title-date,.msg-title').addClass("hidden").viewportChecker({
-        classToAdd: 'visible animated fadeIn',
-        offset: 100
-       });
-});
+$(document ).ready(function() {
+
+    $(window).scroll(function() {
+        
+        $('.section-title').addClass('animated fadeInLeft');
+        $('.line-section').addClass('animated fadeInLeft');
+        $('p.section-contenue').addClass('animated fadeIn');
+        $('.section-thumb').addClass('animated fadeInRight');
+        $('.title-section2').addClass('animated fadeInLeft');
+        $('.exp-title').addClass('animated fadeIn');
+        $('.line-section2').addClass('animated fadeInLeft');
+        $('.aboutme-section2').addClass('animated fadeIn');
+        $('.title-work').addClass('animated fadeInLeft');
+        $('.border-works').addClass('animated fadeInLeft');
+        $('.first-title').addClass('animated fadeIn');
+        $('.sujet-work').addClass('animated fadeIn');
+        $('.img-thumb').addClass('animated fadeInLeft');
+        $('.msg-title').addClass('animated fadeIn');    
+        
+    });      
+    
+    });
