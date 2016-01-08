@@ -1,4 +1,4 @@
-
+ 
 li a {
   color: white;
    text-decoration: line-through;
@@ -51,6 +51,7 @@ ul li {
   margin: -551px auto;
   opacity: 0.2;
   width: 50%;
+    -webkit-animation-duration:4s !important;
 }
 #backgrounds {
   padding-top: 550px;
@@ -62,22 +63,25 @@ ul li {
 .sujet-work {
   margin-left: 501px;
   font-family: 'Helveticane', Helveticane, Arial, sans-serif;
+    -webkit-animation-duration:10s !important;
 }
 .first-title {
   margin: -62px 1px 1px 506px;
   font-size: 23px;
   line-height: 5;
-  text-decoration: line-through;
+  -webkit-animation-duration:5s !important;
 }
 .title-work {
   font-size: 39px;
   font-family: 'Helveticane', Helveticane, Arial, sans-serif;
+   
 }
 .aboutme-section2 {
   width: 70%;
   margin: -11px 0px 0px 250px;
   font-family: 'Helveticane', Helveticane, Arial, sans-serif;
   line-height: 2;
+    -webkit-animation-duration:4s !important;
 }
 
 .post-a {
@@ -87,14 +91,16 @@ ul li {
     font-family: 'Helveticane', Helveticane, Arial, sans-serif;
     opacity: 0.1;
 }
-.exp-title {
+h3.exp-title {
   margin: -199px 1px 1px 117px;
   font-size: 33px;
   font-family: 'Helveticane', Helveticane, Arial, sans-serif;
+    -webkit-animation-duration:4s !important;
 }
 .title-section2 {
   font-size: 150px;
   font-family: 'Helveticane', Helveticane, Arial, sans-serif;
+  -webkit-animation-duration:2s !important;
 }
 #title {
   -moz-transform: rotate(-90deg);
@@ -128,11 +134,17 @@ p.section-contenue {
   font-family: 'Helveticane', Helveticane, Arial, sans-serif;
   line-height: 2;
   width: 30%;
+  -webkit-animation-duration:2s !important;
+}
+.section-thumb{
+    
+        -webkit-animation-duration:6s !important;
 }
 .section-thumb img {
   float: right;
   margin-top: -156px;
   opacity: 0.2;
+
 }
 img {
   width: 40%;
@@ -158,11 +170,14 @@ img {
   width: 63px;
   margin-left: 392px;
   margin-top: 89px;
+   -webkit-animation-duration:5s !important;       
+
 }
 .line-section2 {
   border: 1px solid white;
   width: 63px;
   margin: 72px 0px 0px 116px;
+    -webkit-animation-duration:5s !important;
 }
 #section {
   width: 70%;
@@ -177,6 +192,7 @@ img {
     top: -751px;
     text-align: center;
     left: -93px;
+    -webkit-animation-duration:5s !important;
 }
 #header {
   position: relative;
@@ -193,4 +209,5 @@ body {
   text-transform: uppercase;
   margin-left: 200px;
   margin-top: 4em;
+  -webkit-animation-duration:3s !important;  
 }
