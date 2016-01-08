@@ -1,29 +1,41 @@
-.hidden {
-  opacity: 0;
-}
-.visible {
-  opacity: 1;
-}
-li a:hover {
-  font-weight: 600;
-  text-decoration: line-through;
-}
+
 li a {
   color: white;
-  text-decoration: none;
+   text-decoration: line-through;
   font-family: 'Helveticane', Helveticane, Arial, sans-serif;
+  font-weight: 600;
+}
+ul li {
+      list-style: none;
+    padding-top: 35px;
 }
 
-
-ul li {
-  list-style: none;
-  display: inline;
-  padding-right: 23px;
-  text-align: center;
+#thanks {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Helveticane', Helveticane, Arial, sans-serif;
+    
+}
+#thanks img {
+       width: 70% !important;
+}
+#thanks h1{
+    margin:0px;
+}
+.scrollup {
+    height: 40px;
+      position: relative;
+    top: -69px;
+    left: -150px;
+     float: right;
+}
+@font-face {
+    font-family:chapaza;
+    src: url(Chapaza.otf);
 }
 #social {
-  margin-top: 78px;
-  text-align: center;
+      margin-top: 78px;
+    margin-left: 150px;
 }
 .msg-title {
   font-size: center;
@@ -38,10 +50,11 @@ ul li {
 .img-thumb {
   margin: -551px auto;
   opacity: 0.2;
- width:40%;
+  width: 50%;
 }
 #backgrounds {
   padding-top: 550px;
+  margin-left: -34%; 
 }
 #mywork {
   padding-top: 150px;
@@ -59,26 +72,29 @@ ul li {
 .title-work {
   font-size: 39px;
   font-family: 'Helveticane', Helveticane, Arial, sans-serif;
-  -webkit-animation-duration:3s !important;    
 }
 .aboutme-section2 {
   width: 70%;
   margin: -11px 0px 0px 250px;
   font-family: 'Helveticane', Helveticane, Arial, sans-serif;
   line-height: 2;
-    -webkit-animation-duration:4s !important;
+}
+
+.post-a {
+    font-size: 500px;
+    text-align: center;
+    margin-top: -61px;
+    font-family: 'Helveticane', Helveticane, Arial, sans-serif;
+    opacity: 0.1;
 }
 .exp-title {
   margin: -199px 1px 1px 117px;
   font-size: 33px;
   font-family: 'Helveticane', Helveticane, Arial, sans-serif;
-    -webkit-animation-duration:15s !important;
-
 }
 .title-section2 {
   font-size: 150px;
   font-family: 'Helveticane', Helveticane, Arial, sans-serif;
-    -webkit-animation-duration:2s !important;
 }
 #title {
   -moz-transform: rotate(-90deg);
@@ -112,7 +128,6 @@ p.section-contenue {
   font-family: 'Helveticane', Helveticane, Arial, sans-serif;
   line-height: 2;
   width: 30%;
-    -webkit-animation-duration:7s !important;
 }
 .section-thumb img {
   float: right;
@@ -127,13 +142,11 @@ img {
   font-family: 'Helveticane', Helveticane, Arial, sans-serif;
   line-height: 5;
   margin-left: -17px;
-    -webkit-animation-duration:2s !important;
 }
 .line-section {
   border: 1px solid white;
   width: 63px;
   margin-left: -13px;
-    -webkit-animation-duration:3s !important;
 }
 .line-work {
   border: 1px solid white;
@@ -145,29 +158,26 @@ img {
   width: 63px;
   margin-left: 392px;
   margin-top: 89px;
-    -webkit-animation-duration:5s !important;
 }
 .line-section2 {
   border: 1px solid white;
   width: 63px;
   margin: 72px 0px 0px 116px;
-    -webkit-animation-duration:4s !important;
 }
 #section {
   width: 70%;
-  position: relative;
-  margin: 200px auto 0;
+  margin: -500px auto 0;
 }
 .post.title {
-  font-size: 80px;
-  margin-top: 46px;
-  font-family: 'Helveticane', Helveticane, Arial, sans-serif;
-  margin-left: 193px;
-  -webkit-animation-duration:5s !important;
-      
+      font-size: 80px;
+    font-family: 'Helveticane', Helveticane, Arial, sans-serif;
+    line-height: 28px;
+    z-index: 1000;
+    position: relative;
+    top: -751px;
+    text-align: center;
+    left: -93px;
 }
-
-
 #header {
   position: relative;
   margin: 2% auto 0;
@@ -182,6 +192,5 @@ body {
   letter-spacing: 2px;
   text-transform: uppercase;
   margin-left: 200px;
-  margin-top: 6em;
-   -webkit-animation-duration:5s !important;
+  margin-top: 4em;
 }
