@@ -1,8 +1,7 @@
 $(document).ready(function() {
-    
-    
     $('.post-logo').addClass('animated fadeInUp');
     $('.post.title').addClass('animated fadeInUp');
+    $('.post.title2').addClass('animated fadeInUp');
          $(window).scroll( function(){
             $('.section-title').addClass('animated fadeInUp');
              $('.section-title').addClass('animated fadeInUp');
@@ -21,6 +20,7 @@ $(document).ready(function() {
              $('.msg-title').addClass('animated fadeInUp');
              $('#social').addClass('animated fadeInUp');
              $('#thanks').addClass('animated fadeInLeft');
+             $('.img-thumb2 img').addClass('animated fadeInUp');
              
         });
     $('.scrollup').click(function () {
@@ -28,6 +28,8 @@ $(document).ready(function() {
             scrollTop: 0
         }, 600);
         return false;
+    
     });
     
+     
     });
