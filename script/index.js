@@ -21,7 +21,7 @@ $(document).ready(function() {
              $('#social').addClass('animated fadeInUp');
              $('#thanks').addClass('animated fadeInLeft');
              $('.img-thumb2 img').addClass('animated fadeInUp');
-             
+             $('#thanks h1').addClass('animated fadeInLeft');
         });
     $('.scrollup').click(function () {
         $("html, body").animate({

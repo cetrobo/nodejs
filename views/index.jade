@@ -1,59 +1,61 @@
 doctype html
 html
   head
-    title portfolio
+    title Achraf Benaomar - CV
     link(rel='stylesheet', href='/stylesheets/style.css')
     link(rel='stylesheet', href='/stylesheets/animate.min.css')
     script(src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js')
+    link(href='https://fonts.googleapis.com/css?family=Arimo', rel='stylesheet', type='text/css')
     script(src='script/index.js')
   body
    #header
-    h3.post-logo.animate.fadeInUp Achraf Benomar
-    br
-    h1.post-a A
-    br
-    h2.post.title Développeur Mobile
-    h2.post.title2 & Web
+    .container
+      #content
+        h3.post-logo.animate.fadeInUp ACHRAF BENAOMAR
+        h1.post-behind A
+        h2.title Développeur Mobile
+        h2.title & Web
   #section
-     h3.section-title Développeur frontend & backend
-     .line-section
-     .section-thumb
-      img(src=("./img/avatar.jpg"))
-    p.section-contenue Achraf benomar ,Développeur frontend, qui développer des sites vitrines sous  WordPress  (CMS Open-|source) et des               dernières techniques web : HTML5/CSS3, jQuery, jQuery UI, responsive webdesign…
+    .container
+         h3.section-title Développeur frontend & backend
+         .line-section
+         .section-thumb
+          img(src=("./img/avatar.jpg"))
+          p.section-contenue Achraf benomar ,Développeur frontend, qui développer des sites vitrines sous  WordPress  (CMS Open-|source) et des               dernières techniques web : HTML5/CSS3, jQuery, jQuery UI, responsive webdesign…
    #title ACHRAF BENAOMAR 2016
   #section2
-    h1.title-section2 1
-    h3.exp-title Ans d'expérience
-    .line-section2
-    p.aboutme-section2 Achraf Benomar,j'ai commencé le développement web et le web design pour développer un petit site perso
-     |et c'est rapidement devenu une vraie vocation. J'aime expérimenter, découvrir et apprendre 
-     |au fur et à mesure de mes projets pros et perso.
-     br
-    #mywork
-      h2.title-work Les projets sélectionnés
+    .container
+      h1.title-section2 3
+      h3.exp-title Ans d'expérience
+      .line-section2
+      p.aboutme-section2 Achraf Benomar,j'ai commencé le développement web et le web design pour développer un petit site perso
+       |et c'est rapidement devenu une vraie vocation. J'aime expérimenter, découvrir et apprendre 
+       |au fur et à mesure de mes projets pros et perso.
+   #mywork
+    .container
+      h2.title-work Mes projets sélectionnés
       .border-works 
       h4.first-title Mobile
       p.sujet-work Application mobile d’achat de coupon de réduction
-    #backgrounds
-      .img-thumb
-        img(src=("./img/tp.png"))
+      #thumb
+        img.thumbs(src=("./img/tp.png"))
+        img.thumb(src=("./img/ap.png"))
      .title-date
-        |ACHRAF BENAOMAR 2016  
-    .img-thumb2
-        img(src=("./img/ap.png"))    
+        |ACHRAF BENAOMAR 2016     
     #espace
-    #send
+   #footer
+     .container
       h2.msg-title Joignez-vous à ma liste de courrier électronique privé ou envoyez-moi un e-mail.
-  #social
+      #social
        ul.media
         li: a(href="#") Facebook
         li: a(href="#") Google+
         li: a(href="#") Linkedin 
-  #thanks
-    h1 Merci
+      #thanks
+       h1 Merci
     
-   a.scrollup(href='#')
-     img(src=("img/p.png"))
+      a.scrollup(href='#')
+         img(src=("img/p.png"))
    
   
         
