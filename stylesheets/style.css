@@ -53,7 +53,7 @@ ul li {
   margin: 0 auto;
 }
 a.scrollup img {
-  width: 10%;
+  width: 7%;
   float: right;
   position: relative;
   left: 350px;
@@ -66,7 +66,7 @@ a.scrollup img {
   padding-top: 550px;
 }
 #mywork {
-  padding-top: 150px;
+  padding-top: 250px;
 }
 #mywork .title-work {
   font-size: 39px;
@@ -82,6 +82,16 @@ a.scrollup img {
   margin-left: 60px;
   margin-top: -15px;
   font-size: 23px;
+}
+#mywork #thumb {
+  opacity: 0.2;
+}
+#mywork #mywork #thumb img {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
 }
 #mywork .sujet-work {
   margin-left: 350px;
@@ -116,6 +126,7 @@ a.scrollup img {
 .title-section2 {
   font-size: 150px;
   font-family: 'Arimo';
+  padding-top: 150px;
 }
 #title {
   -moz-transform: rotate(-90deg);
@@ -142,7 +153,7 @@ a.scrollup img {
 #section2 {
   position: relative;
   margin: 0;
-  padding: 0;
+  padding: 0px;
 }
 p.section-contenue {
   font-family: 'Arimo';
@@ -175,6 +186,11 @@ img {
   border: 1px solid white;
   width: 63px;
   margin-left: -13px;
+}
+#mywork .title-work {
+  font-size: 39px;
+  font-family: 'Arimo';
+  margin-left: 5px;
 }
 .line-section2 {
   border: 1px solid white;

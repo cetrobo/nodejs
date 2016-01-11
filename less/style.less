@@ -67,7 +67,7 @@ ul li {
 }
 
 a.scrollup img {
-    width: 10%;
+    width: 7%;
     float: right;
     position: relative;
     left: 350px;
@@ -84,7 +84,7 @@ a.scrollup img {
     
 }
 #mywork {
-    padding-top: @works-padding;
+    padding-top: 250px;
   
  
 
@@ -105,7 +105,17 @@ a.scrollup img {
     font-size:@first-size;
 
 }
-
+  #thumb{
+    
+    opacity: 0.2;
+  }
+#mywork #thumb img {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+}
     .sujet-work {
     margin-left: 350px;
     font-family: @font;
@@ -143,6 +153,7 @@ a.scrollup img {
 .title-section2{
     font-size: @title-section2;
     font-family: @font;
+     padding-top: 150px;
 }
 
 
@@ -174,7 +185,7 @@ a.scrollup img {
 #section2 {
     position: relative;
     margin: 0;
-    padding: 0;
+    padding: 0px;
 }
     
 p.section-contenue {
@@ -214,7 +225,11 @@ img{
     width: @line-section-width;
      margin-left: @line-section-marg;
 }
-
+#mywork .title-work {
+    font-size: 39px;
+    font-family: @font;
+    margin-left: 5px;
+}
 
 .line-section2 {
     border: @line-section-bord;
