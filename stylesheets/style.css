@@ -177,6 +177,7 @@ img {
   font-family: 'Arimo';
   line-height: 5;
   margin-left: -1px;
+  visibility: visible;
 }
 .line-section {
   border: 1px solid white;

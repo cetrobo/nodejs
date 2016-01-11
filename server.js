@@ -17,6 +17,7 @@ app.use("/script",express.static(__dirname + "/script"));
 // nous utilisons la méthode static de l'object express
 app.use("/img",express.static(__dirname+"/img"));
 app.use("/font",express.static(__dirname+"/font"));
+app.use("/lib",express.static(__dirname+"/lib"));
 
 
 app.get('/',function(req,res){
