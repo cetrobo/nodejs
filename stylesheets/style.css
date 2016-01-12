@@ -52,6 +52,12 @@ ul li {
   text-align: center;
   margin: 0 auto;
 }
+p.sujet-works {
+  width: 50%;
+  margin: 0 auto;
+  padding-left: 460px;
+  line-height: 2em;
+}
 a.scrollup img {
   width: 7%;
   float: right;
@@ -100,10 +106,12 @@ a.scrollup img {
 }
 #mywork #thumb .thumbs {
   width: 25%;
+  -webkit-animation-duration: 2s !important;
 }
 #mywork #thumb .thumb {
   width: 53%;
   padding-left: 25px;
+  -webkit-animation-duration: 2s !important;
 }
 #mywork #thumb img {
   filter: grayscale(100%);
@@ -122,11 +130,13 @@ a.scrollup img {
   margin: -199px 1px 1px 117px;
   font-size: 33px;
   font-family: 'Arimo';
+  -webkit-animation-duration: 3s !important;
 }
 .title-section2 {
   font-size: 150px;
   font-family: 'Arimo';
   padding-top: 150px;
+  -webkit-animation-duration: 2s !important;
 }
 #title {
   -moz-transform: rotate(-90deg);
@@ -158,6 +168,10 @@ a.scrollup img {
 p.section-contenue {
   font-family: 'Arimo';
   line-height: 2;
+  -webkit-animation-duration: 4s !important;
+  width: 45%;
+  margin-left: 100px;
+  margin-top: -15px;
 }
 .section-thumb img {
   float: right;
@@ -166,6 +180,7 @@ p.section-contenue {
 }
 img {
   width: 40%;
+  -webkit-animation-duration: 9s !important;
 }
 #thanks h1 {
   margin: 0 auto;
@@ -178,10 +193,12 @@ img {
   line-height: 5;
   margin-left: -1px;
   visibility: visible;
+  -webkit-animation-duration: 2s !important;
 }
 .line-section {
   border: 1px solid white;
   width: 63px;
+  -webkit-animation-duration: 2s !important;
 }
 .line-work {
   border: 1px solid white;
@@ -197,6 +214,7 @@ img {
   border: 1px solid white;
   width: 63px;
   margin: 72px 0px 0px 116px;
+  -webkit-animation-duration: 2s !important;
 }
 #section {
   position: relative;
