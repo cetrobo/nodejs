@@ -3,16 +3,14 @@ $(document).ready(function() {
     $('.title').addClass('animated fadeInUp');
   
          $(window).scroll( function(){
-            
-           if($('#header:hidden'))
-             
-                $('#header').addClass('animated fadeOut');
            
-            else
-              $('#header').addClass('animated fadeInUp'); 
-              
+        if ($('#header:above-the-top')) {
+              $('#header').addClass('animated fadeOut'); 
+          }else{
+            $('#header').removeClass('animated fadeOut'); 
+          }
             
-        });
+           });
     $('.scrollup').click(function () {
         $("html, body").animate({
             scrollTop: 0  
@@ -22,4 +20,4 @@ $(document).ready(function() {
     });
     
      
-    });
+  });
