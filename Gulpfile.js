@@ -2,6 +2,7 @@ var gulp = require('gulp');
 var less = require('gulp-less');
 var browserSync=require('browser-sync');
 var nodemon = require('gulp-nodemon');
+var watch = require('gulp-watch-less');
 var path = require('path');
 
 

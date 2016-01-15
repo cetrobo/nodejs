@@ -31,6 +31,17 @@ header .title {
   top: -397px;
   left: -4px;
 }
+.section-title {
+  font-size: 28px;
+  font-family: 'Arimo';
+  line-height: 5;
+  margin-left: -1px;
+}
+.line-section {
+  border: 1px solid white;
+  width: 63px;
+  -webkit-animation-duration: 2s !important;
+}
 .container {
   width: 70%;
   margin: auto;
@@ -83,40 +94,38 @@ section.work .border-works {
 }
 section.work .first-title {
   text-align: center;
-  margin-left: 130px;
+  margin-left: 70px;
   margin-top: -15px;
   font-size: 23px;
 }
 section.work #thumb {
   opacity: 0.2;
 }
-section.work #mywork #thumb img {
+.sujet-work {
+  margin-left: 468px;
+}
+#mywork #thumb img {
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
   -o-filter: grayscale(100%);
 }
-<<<<<<< HEAD
-#mywork .sujet-work {
-  margin-left: 416px;
-=======
-section.work .sujet-work {
+.sujet-work {
   margin-left: 350px;
->>>>>>> 8c06c4c2cabb266ca20dc21a31a58184e3469107
   font-family: 'Arimo';
   text-align: center;
 }
-section.work #thumb .thumbs {
+#thumb .thumbs {
   width: 25%;
   -webkit-animation-duration: 2s !important;
 }
-section.work #thumb .thumb {
+#thumb .thumb {
   width: 53%;
   padding-left: 25px;
   -webkit-animation-duration: 2s !important;
 }
-section.work #thumb img {
+#thumb img {
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
@@ -190,19 +199,6 @@ img {
   margin: 0 auto;
   float: right;
   font-size: 100px;
-}
-.section-title {
-  font-size: 28px;
-  font-family: 'Arimo';
-  line-height: 5;
-  margin-left: -1px;
-  visibility: visible;
-  -webkit-animation-duration: 2s !important;
-}
-.line-section {
-  border: 1px solid white;
-  width: 63px;
-  -webkit-animation-duration: 2s !important;
 }
 .line-work {
   border: 1px solid white;
