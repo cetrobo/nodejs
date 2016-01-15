@@ -1,25 +1,46 @@
 $(document).ready(function() {
-    $('.post-logo').addClass('animated fadeInUp');
-    $('.title').addClass('animated fadeInUp');
-  
-         $(window).scroll( function(){
-           
-           
-          $('#header:above-the-top')
-              .addClass('animated fadeOut')
-              .removeClass('animated fadeIn');
-           
-          $('#header:below-the-fold')
-              .addClass('animated fadeOut')
-              .removeClass('animated fadeIn');
-           
-          $('#header:in-viewport').addClass('animated fadeIn')
-                                  .removeClass('animated fadeOut');
-            
-        });
+
   
   
-  $('#header:above-the-top').addClass('animated fadeOut'); 
+  
+    $("header").inViewport(function(px){
+        if(px){
+          $(this).addClass("animated fadeIn");
+          $(this).removeClass("fadeOut");
+        } 
+        else {
+          $(this).addClass("animated fadeOut");
+          $(this).removeClass("fadeIn");
+        }
+    });
+  
+    
+    $("section").inViewport(function(px){
+        if(px){
+          $(this).addClass("animated fadeIn");
+          $(this).removeClass("fadeOut");
+        } 
+        else {
+          $(this).addClass("animated fadeOut");
+          $(this).removeClass("fadeIn");
+        }
+    });
+  
+  
+    $("footer").inViewport(function(px){
+        if(px){
+          $(this).addClass("animated fadeIn");
+          $(this).removeClass("fadeOut");
+        } 
+        else {
+          $(this).addClass("animated fadeOut");
+          $(this).removeClass("fadeIn");
+        }
+    });
+  
+  
+
+  
   
     $('.scrollup').click(function () {
         $("html, body").animate({

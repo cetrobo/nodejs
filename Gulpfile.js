@@ -1,13 +1,13 @@
 var gulp = require('gulp');
-var watchLess = require('gulp-watch-less');
 var less = require('gulp-less');
 var browserSync=require('browser-sync');
 var nodemon = require('gulp-nodemon');
+var path = require('path');
 
 
 gulp.task('less', function() {
     // Code for the default task
-    return gulp.src('less/**/*.less')
+    return gulp.src('less/style.less')
     .pipe(less())
     .pipe(gulp.dest('stylesheets'))
 });
