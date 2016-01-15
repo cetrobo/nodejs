@@ -4,13 +4,23 @@ $(document).ready(function() {
   
          $(window).scroll( function(){
            
-        if ($('#header:above-the-top')) {
-              $('#header').addClass('animated fadeOut'); 
-          }else{
-            $('#header').removeClass('animated fadeOut'); 
-          }
+           
+          $('#header:above-the-top')
+              .addClass('animated fadeOut')
+              .removeClass('animated fadeIn');
+           
+          $('#header:below-the-fold')
+              .addClass('animated fadeOut')
+              .removeClass('animated fadeIn');
+           
+          $('#header:in-viewport').addClass('animated fadeIn')
+                                  .removeClass('animated fadeOut');
             
-           });
+        });
+  
+  
+  $('#header:above-the-top').addClass('animated fadeOut'); 
+  
     $('.scrollup').click(function () {
         $("html, body").animate({
             scrollTop: 0  
