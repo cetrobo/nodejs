@@ -1,123 +1,113 @@
 @import "variables";
-
-body{
-    font-family: @font;
-    background-color:@color-background-body;
-    color:@color-body;
-    margin: 0px;
-    padding: 0px;
+body {
+  font-family: @font;
+  background-color: @color-background-body;
+  color: @color-body;
+  margin: 0px;
+  padding: 0px;
 }
 
-#header {
-    position:relative;
-    margin: 0px;
-    padding: 0px;
-#content {
+header {
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  #content {
     padding-top: 45px;
-}    
-  
-    .post-logo {
-        font-size: @post-size;
-        margin: 0px;
-    }
-    .post-behind{
+  }
+  .post-logo {
+    font-size: @post-size;
+    margin: 0px;
+  }
+  .post-behind {
     font-size: 550px;
     margin: auto;
     text-align: center;
     opacity: 0.2;
     z-index: -100;
-    
   }
   .title {
-      font-size: @post-title-size;
-      margin: 0 auto;
-      position: relative;
-      top: -397px;
-      left: -4px;
+    font-size: @post-title-size;
+    margin: 0 auto;
+    position: relative;
+    top: -397px;
+    left: -4px;
   }
-
-
 }
-
 
 .container {
   width: 70%;
   margin: auto;
 }
 
-
 li a {
-    list-style: none;
-    text-decoration: line-through;
-    font-weight: 600;
-    color: white;
+  list-style: none;
+  text-decoration: line-through;
+  font-weight: 600;
+  color: white;
 }
 
 ul li {
-    list-style: @ul-li-style;
-      padding-top: 26px;
+  list-style: @ul-li-style;
+  padding-top: 26px;
 }
+
 #social {
-   margin-top: 80px;
+  margin-top: 80px;
 }
+
 .msg-title {
-    text-align: @send-text;
-    margin: @send-margin;
-   
+  text-align: @send-text;
+  margin: @send-margin;
 }
 
 p.sujet-works {
-    width: 50%;
-    margin: 0 auto;
-    padding-left: 460px;
+  width: 50%;
+  margin: 0 auto;
+  padding-left: 460px;
   line-height: 2em;
-
 }
+
 a.scrollup img {
-    width: 7%;
-    float: right;
-    position: relative;
-    left: 350px;
-    top: -50px;
+  width: 7%;
+  float: right;
+  position: relative;
+  left: 350px;
+  top: -50px;
 }
 
-#espace{
-    
-        margin-top: 20%;
+#espace {
+  margin-top: 20%;
 }
 
-#backgrounds{
-    padding-top: @backgrounds;
-    
+#backgrounds {
+  padding-top: @backgrounds;
 }
-#mywork {
-    padding-top: 250px;
+
+section.work {
   
- 
-
+    
   .title-work {
-    font-size: @title-work;
+    font-size: 39px;
     font-family: @font;
-}
-  .border-works{
+    margin-left: 5px;
+    }
+
+  .border-works {
     border: @line-section-bord;
     width: @line-section-width;
     width: 63px;
     margin-left: 360px;
-   
-}
+  }
   .first-title {
     text-align: center;
     margin-left: 130px;
     margin-top: -15px;
-    font-size:@first-size;
-
-}
-  #thumb{
-    
-    opacity: 0.2;
-    
+    font-size: @first-size;
   }
+  #thumb {
+    opacity: 0.2;
+  }
+<<<<<<< HEAD
 #mywork #thumb img {
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
@@ -127,145 +117,155 @@ a.scrollup img {
 }
     .sujet-work {
     margin-left: 416px;
-    font-family: @font;
-    text-align: center;
-}
-
-
-  
-#thumb .thumbs {
-    width: 25%;
-   -webkit-animation-duration: 2s !important;
-}
-#thumb .thumb {
-    width: 53%;
-    padding-left: 25px;
-   -webkit-animation-duration: 2s !important;
-}
-#thumb img {
+=======
+  #mywork #thumb img {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
     -ms-filter: grayscale(100%);
     -o-filter: grayscale(100%);
+  }
+  .sujet-work {
+    margin-left: 350px;
+>>>>>>> 8c06c4c2cabb266ca20dc21a31a58184e3469107
+    font-family: @font;
+    text-align: center;
+  }
+  #thumb .thumbs {
+    width: 25%;
+    -webkit-animation-duration: 2s !important;
+  }
+  #thumb .thumb {
+    width: 53%;
+    padding-left: 25px;
+    -webkit-animation-duration: 2s !important;
+  }
+  #thumb img {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+  }
+
+  
 }
- }
+
 .aboutme-section2 {
-    width: @about-width;
-    margin: @about-margin;
-    font-family:@font;
-    line-height:@section-cont-line;
+  width: @about-width;
+  margin: @about-margin;
+  font-family: @font;
+  line-height: @section-cont-line;
 }
-.exp-title{
-    margin:@exp-title;
-    font-size: @exp-size;
-    font-family: @font;
-   -webkit-animation-duration: 3s !important;
+
+.exp-title {
+  margin: @exp-title;
+  font-size: @exp-size;
+  font-family: @font;
+  -webkit-animation-duration: 3s !important;
 }
-.title-section2{
-    font-size: @title-section2;
-    font-family: @font;
-     padding-top: 150px;
+
+.title-section2 {
+  font-size: @title-section2;
+  font-family: @font;
+  padding-top: 150px;
   -webkit-animation-duration: 2s !important;
 }
 
-
-  
-#title{
-    -moz-transform: @title-rote;
-	-webkit-transform: @title-rot;
-    font-family:@font;
-    font-size: @title-size;
-    letter-spacing: @post-spacing;
-    text-transform: @post-transform;
-    width: @title-width;
-    font-weight: @title-weight;
-    margin: @title-marg;
-}   
-
-.title-date{
-    -moz-transform: @title-rote;
-	-webkit-transform: @title-rot;
-    font-family:@font;
-    font-size: @title-size;
-    letter-spacing: @post-spacing;
-    text-transform: @post-transform;
-    width: @title-width;
-    font-weight: @title-weight;
-    margin: @title-dates;
+#title {
+  -moz-transform: @title-rote;
+  -webkit-transform: @title-rot;
+  font-family: @font;
+  font-size: @title-size;
+  letter-spacing: @post-spacing;
+  text-transform: @post-transform;
+  width: @title-width;
+  font-weight: @title-weight;
+  margin: @title-marg;
 }
 
-#section2 {
-    position: relative;
-    margin: 0;
-    padding: 0px;
+.title-date {
+  -moz-transform: @title-rote;
+  -webkit-transform: @title-rot;
+  font-family: @font;
+  font-size: @title-size;
+  letter-spacing: @post-spacing;
+  text-transform: @post-transform;
+  width: @title-width;
+  font-weight: @title-weight;
+  margin: @title-dates;
 }
-    
+
+section.exp {
+  position: relative;
+  margin: 0;
+  padding: 0px;
+  padding-bottom: 100px;
+}
+
 p.section-contenue {
-    font-family: @font;
-    line-height: 2;
+  font-family: @font;
+  line-height: 2;
   -webkit-animation-duration: 4s !important;
-      width: 45%;
-    margin-left: 100px;
-    margin-top: -15px;
-  
-}
-.section-thumb img {
-    float: @section-thumb;
-    margin-top: @section-thumb-marg;
-    opacity: 0.2;
-  
+  width: 45%;
+  margin-left: 100px;
+  margin-top: -15px;
 }
 
-img{
-    width: @img-width;
-  -webkit-animation-duration: 9s !important;
-    
+.section-thumb img {
+  float: @section-thumb;
+  margin-top: @section-thumb-marg;
+  opacity: 0.2;
 }
+
+img {
+  width: @img-width;
+  -webkit-animation-duration: 9s !important;
+}
+
 #thanks h1 {
-    margin: 0 auto;
-    float: right;
-    font-size: 100px;
+  margin: 0 auto;
+  float: right;
+  font-size: 100px;
 }
 
 .section-title {
-    font-size: @section-title-size;
-    font-family: @font;
-    line-height: @section-title-height;
-    margin-left: -1px;
-      visibility: visible;
-  -webkit-animation-duration:2s !important;
+  font-size: @section-title-size;
+  font-family: @font;
+  line-height: @section-title-height;
+  margin-left: -1px;
+  visibility: visible;
+  -webkit-animation-duration: 2s !important;
 }
+
 .line-section {
-    border: @line-section-bord;
-    width: @line-section-width;
-   -webkit-animation-duration:2s !important;
-   
+  border: @line-section-bord;
+  width: @line-section-width;
+  -webkit-animation-duration: 2s !important;
 }
+
 .line-work {
-    border: @line-section-bord;
-    width: @line-section-width;
-     margin-left: @line-section-marg;
+  border: @line-section-bord;
+  width: @line-section-width;
+  margin-left: @line-section-marg;
 }
-#mywork .title-work {
-    font-size: 39px;
-    font-family: @font;
-    margin-left: 5px;
-  
-}
+
 
 .line-section2 {
-    border: @line-section-bord;
-    width: @line-section-width;
-    margin: @line-section2;
-  -webkit-animation-duration:2s !important;
+  border: @line-section-bord;
+  width: @line-section-width;
+  margin: @line-section2;
+  -webkit-animation-duration: 2s !important;
 }
 
-
-#section{
-       position: relative;
-        margin: 0px;
-        padding: 0px;
-    
+section {
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
+footer {
+  padding-top: 150px;
+}

@@ -2,50 +2,73 @@ doctype html
 html
   head
     title Achraf Benaomar - CV
+<<<<<<< HEAD
     link(rel='stylesheet', href='/stylesheets/style.css')
     link(rel='stylesheet', href='/stylesheets/animate.min.css')
     script(src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js')
     script(src='lib/jquery.dimensions.min.js')
+=======
+    link(rel='stylesheet' href='/stylesheets/style.css')
+    link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css')
+>>>>>>> 8c06c4c2cabb266ca20dc21a31a58184e3469107
     link(href='https://fonts.googleapis.com/css?family=Arimo', rel='stylesheet', type='text/css')
-    script(src='script/index.js')
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js')
   body
-   #header
-    .container
-      #content
-        h3.post-logo ACHRAF BENAOMAR
-        h1.post-behind A
-        h2.title.animate.fadeInUp Développeur Mobile
-        h2.title & Web
-  #section
-    .container
-         h3.section-title Développeur frontend & backend
-         .line-section
-         .section-thumb
-          img(src=("./img/avatar.jpg"))
-          p.section-contenue Achraf benomar ,Développeur frontend, qui développe des sites vitrines sous  WordPress  et des                                dernières techniques web : HTML5/CSS3, jQuery, jQuery UI,NodeJs,AngularJs.
-   #title ACHRAF BENAOMAR 2016
-  #section2
-    .container
-      h1.title-section2 3
-      h3.exp-title Ans d'expérience
-      .line-section2
-      p.aboutme-section2 Achraf Benomar,j'ai commencé le développement web et le web design pour développer un petit site perso
-       |et c'est rapidement devenu une vraie vocation. J'aime expérimenter, découvrir et apprendre 
-       |au fur et à mesure de mes projets pros et perso.
-   #mywork
-    .container
-      h2.title-work Mes projets sélectionnés
-      .border-works 
-      h4.first-title Mobile
-      p.sujet-work Application mobile d’achat de coupon de réduction
-      p.sujet-works Le projet Profiteo propose d'acheter des bons d'achat (coupons) via des applications Kiosk disponible dans les centres       commerciaux, l'application mobile  a pour but de faciliter l'achat des coupons directement depuis le mobile de l'utilisateur sans se déplacer au centre commercial. Elle permet également de générer des coupons électroniques (Passbook) et de pouvoir les valider via un code bar unique lors du passage du client à la caisse. 
-      #thumb
-        img.thumbs(src=("./img/tp.png"))
-        img.thumb(src=("./img/ap.png"))
-     .title-date
-        |ACHRAF BENAOMAR 2016     
-    #espace
-   #footer
+  
+  
+    // Section header 
+    header
+      .container
+        #content
+          h3.post-logo ACHRAF BENAOMAR
+          h1.post-behind A
+          h2.title.animate.fadeInUp Développeur Mobile
+          h2.title & Web
+          
+          
+          
+    // Section profile 
+    section.profile
+      .container
+           h3.section-title Développeur frontend & backend
+           .line-section
+           .section-thumb
+            img(src=("./img/avatar.jpg"))
+            p.section-contenue Achraf benomar ,Développeur frontend, qui développe des sites vitrines sous  WordPress  et des                                dernières techniques web : HTML5/CSS3, jQuery, jQuery UI,NodeJs,AngularJs.
+            
+    #title ACHRAF BENAOMAR 2016
+   
+   
+    // Section experience
+    section.exp
+      .container
+        h1.title-section2 3
+        h3.exp-title Ans d'expérience
+        .line-section2
+        p.aboutme-section2 Achraf Benomar,j'ai commencé le développement web et le web design pour développer un petit site perso
+         |et c'est rapidement devenu une vraie vocation. J'aime expérimenter, découvrir et apprendre 
+         |au fur et à mesure de mes projets pros et perso.
+     
+     
+     
+    // Section work
+    section.work
+      .container
+        h2.title-work Mes projets sélectionnés
+        .border-works 
+        h4.first-title Mobile
+        p.sujet-work Application mobile d’achat de coupon de réduction
+        p.sujet-works Le projet Profiteo propose d'acheter des bons d'achat (coupons) via des applications Kiosk disponible dans les centres       commerciaux, l'application mobile  a pour but de faciliter l'achat des coupons directement depuis le mobile de l'utilisateur sans se déplacer au centre commercial. Elle permet également de générer des coupons électroniques (Passbook) et de pouvoir les valider via un code bar unique lors du passage du client à la caisse. 
+        #thumb
+          img.thumbs(src=("./img/tp.png"))
+          img.thumb(src=("./img/ap.png"))
+       .title-date
+          |ACHRAF BENAOMAR 2016     
+
+
+
+    // Section footer
+    footer
      .container
       h2.msg-title Joignez-vous à ma liste de courrier électronique privé ou envoyez-moi un e-mail.
       #social
@@ -55,10 +78,14 @@ html
         li: a(href="#") Linkedin 
       #thanks
        h1 Merci
-    
+
       a.scrollup(href='#')
          img(src=("img/p.png"))
    
+  
+  
+  script(src='script/viewport.js')
+  script(src='script/index.js')
   
         
         
