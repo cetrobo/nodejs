@@ -101,9 +101,7 @@ section.work .first-title {
 section.work #thumb {
   opacity: 0.2;
 }
-.sujet-work {
-  margin-left: 468px;
-}
+
 #mywork #thumb img {
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);

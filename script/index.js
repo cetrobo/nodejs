@@ -5,9 +5,6 @@ $(document).ready(function() {
           $(this).addClass("animated fadeInLeft");
           
         } 
-  else{
-    $(this).removeClass("animated fadeInLeft");
-  }
        
 });
    $('.exp-title').inViewport(function(px){
@@ -15,9 +12,6 @@ $(document).ready(function() {
           $(this).addClass("animated fadeInUp");
           
         } 
-  else{
-    $(this).removeClass("animated fadeInUp");
-  }
        
 });
    $('.line-section2').inViewport(function(px){
@@ -25,9 +19,6 @@ $(document).ready(function() {
           $(this).addClass("animated fadeInLeft");
           
         } 
-  else{
-    $(this).removeClass("animated fadeInLeft");
-  }
        
 });
    $('.aboutme-section2').inViewport(function(px){
@@ -35,9 +26,7 @@ $(document).ready(function() {
           $(this).addClass("animated fadeInUp");
           
         } 
-  else{
-    $(this).removeClass("animated fadeInUp");
-  }
+  
        
 });
    
@@ -47,9 +36,7 @@ $(document).ready(function() {
           $(this).addClass("animated fadeIn");
           
         } 
-  else{
-    $(this).removeClass("animated fadeIn");
-  }
+  
        
 });
    
@@ -62,9 +49,7 @@ $(document).ready(function() {
           $(this).addClass("animated fadeInLeft");
           
         } 
-  else{
-    $(this).removeClass("animated fadeInLeft");
-  }
+  
        
 });
   
@@ -73,9 +58,7 @@ $(document).ready(function() {
           $(this).addClass("animated fadeInLeft");
           
         } 
-  else{
-    $(this).removeClass("animated fadeInLeft");
-  }
+  
        
 });
   
@@ -84,9 +67,7 @@ $(document).ready(function() {
           $(this).addClass("animated fadeInUp");
           
         } 
-  else{
-    $(this).removeClass("animated fadeInUp");
-  }
+
        
 });
    $('.sujet-works').inViewport(function(px){
@@ -94,9 +75,7 @@ $(document).ready(function() {
           $(this).addClass("animated fadeInUp");
           
         } 
-  else{
-    $(this).removeClass("animated fadeInUp");
-  }
+  
    });
      
      
@@ -106,9 +85,7 @@ $(document).ready(function() {
           $(this).addClass("animated fadeInLeft");
           
         } 
-  else{
-    $(this).removeClass("animated fadeInLeft");
-  }
+ 
        
 });
      
@@ -119,9 +96,7 @@ $(document).ready(function() {
           $(this).addClass("animated fadeIn");
           
         } 
-  else{
-    $(this).removeClass("animated fadeIn");
-  }
+  
        
 });
      
@@ -137,10 +112,7 @@ $(document).ready(function() {
           $(this).addClass("animated fadeIn");
           
         } 
-  else{
-    $(this).removeClass("animated fadeIn");
-  }
-       
+ 
 });
   
   
@@ -151,10 +123,7 @@ $(document).ready(function() {
           $(this).addClass("animated fadeInLeft");
           
         } 
-  else{
-    $(this).removeClass("animated fadeInLeft");
-  }
-       
+
 });
 
   
@@ -163,9 +132,7 @@ $(document).ready(function() {
           $(this).addClass("animated fadeIn");
           
         } 
-  else{
-    $(this).removeClass("animated fadeIn");
-  }
+ 
        
 });
   
@@ -182,9 +149,7 @@ $(document).ready(function() {
           $(this).addClass("animated fadeIn");
           
         } 
-  else{
-    $(this).removeClass("animated fadeIn");
-  }
+
        
 });
   
@@ -204,9 +169,7 @@ $(document).ready(function() {
           $(this).addClass("animated fadeInUp");
           
         } 
-  else{
-    $(this).removeClass("animated fadeInUp");
-  }
+
        
 });
   
@@ -215,9 +178,7 @@ $(document).ready(function() {
           $(this).addClass("animated fadeInLeft");
           
         } 
-  else{
-    $(this).removeClass("animated fadeInLeft");
-  }
+ 
        
 });
   
@@ -226,9 +187,7 @@ $(document).ready(function() {
           $(this).addClass("animated fadeIn");
           
         } 
-  else{
-    $(this).removeClass("animated fadeIn");
-  }
+
        
 });
   
@@ -237,10 +196,7 @@ $(document).ready(function() {
           $(this).addClass("animated fadeIn");
           
         } 
-  else{
-    $(this).removeClass("animated fadeInUp");
-  }
-       
+    
 });
   
   $('.post-logo').inViewport(function(px){
@@ -248,9 +204,7 @@ $(document).ready(function() {
           $(this).addClass("animated fadeInUp");
           
         } 
-  else{
-    $(this).removeClass("animated fadeInUp");
-  }
+
        
 });
   
@@ -260,45 +214,28 @@ $('.title').inViewport(function(px){
           $(this).addClass("animated fadeInLeft");
           
         } 
-  else{
-    $(this).removeClass("animated fadeInLeft");
-  }
-       
+   
 });
-  $("header").inViewport(function(px){
-        if(px){
-          $(this).addClass("animated fadeIn");
-          $(this).removeClass("fadeOut");
-        } 
-        else {
-          $(this).addClass("animated fadeOut");
-          $(this).removeClass("fadeIn");
-        }
-    });
   
-    
-    $("section").inViewport(function(px){
-        if(px){
-          $(this).addClass("animated fadeIn");
-          $(this).removeClass("fadeOut");
-        } 
-        else {
-          $(this).addClass("animated fadeOut");
-          $(this).removeClass("fadeIn");
-        }
-    });
-  
-  
-    $("footer").inViewport(function(px){
-        if(px){
-          $(this).addClass("animated fadeIn");
-          $(this).removeClass("fadeOut");
-        } 
-        else {
-          $(this).addClass("animated fadeOut");
-          $(this).removeClass("fadeIn");
-        }
-    });
+    $("header").inViewport(function (px) {
+    if (px) {
+      $(this).addClass("animated fadeIn");
+    } 
+  });
+
+
+  $("section").inViewport(function (px) {
+    if (px) {
+      $(this).addClass("animated fadeIn");
+    }
+  });
+
+
+  $("footer").inViewport(function (px) {
+    if (px) {
+      $(this).addClass("animated fadeIn");
+    }
+  });
   
 
   
