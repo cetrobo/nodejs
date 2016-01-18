@@ -1,0 +1,72 @@
+@media only screen and (max-width: 736px) {
+  header .title {
+    font-size: 60px;
+  }
+  header .post-behind {
+    font-size: 465px;
+  }
+  .exp-title {
+    margin: -224px 1px 1px 117px;
+    font-size: 22px;
+  }
+  .section-title {
+    font-size: 27px;
+    margin-left: 0px;
+    line-height: 2;
+  }
+  .line-section {
+    position: relative;
+    top: 389px;
+  }
+  .aboutme-section2 {
+    margin-left: -12px;
+    width: 122%;
+    margin-top: 30px;
+  }
+  .section-thumb img {
+    width: 100%;
+    margin-top: 10px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+  }
+  p.section-contenue {
+    padding: 0px;
+    margin-left: 0;
+    margin-top: 10px;
+    width: 100%;
+  }
+  .line-section2 {
+    margin: 89px 4px 0px -4px;
+  }
+  #thumb .thumb {
+    width: 125%;
+    -webkit-animation-duration: 2s !important;
+    margin-left: -38px;
+    margin-top: 25px;
+  }
+  #thanks {
+    position: relative;
+    bottom: -65px;
+  }
+  a.scrollup img {
+    width: 19%;
+    float: right;
+    position: relative;
+    left: 40px;
+    top: -180px;
+  }
+  #thumb .thumbs {
+    width: 75%;
+    margin-top: 15px;
+  }
+  section.work .border-works {
+    margin-left: 0;
+  }
+  p.sujet-works {
+    padding-left: 0px;
+    width: 100%;
+  }
+  .sujet-work {
+    margin-left: 0px;
+  }
+}
