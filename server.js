@@ -12,8 +12,9 @@ var server=http.createServer(app);
 var port = process.env.PORT || 8080;
 app.set('view engine','jade');
 app.use("/stylesheets",express.static(__dirname + "/stylesheets"));
-app.use("/less",express.static(__dirname + "/less"));
+app.use("/lib",express.static(__dirname + "/lib"));
 app.use("/script",express.static(__dirname + "/script"));
+app.use("/less",express.static(__dirname + "/less"));
 //get c'est elle qui va permettre à notre serveur de répondre aux requêtes HTTP
 // nous utilisons la méthode static de l'object express
 app.use("/img",express.static(__dirname+"/img"));

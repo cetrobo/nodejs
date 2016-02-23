@@ -1,5 +1,6 @@
+
 $(document).ready(function() {
-     
+  /*   
    $('.title-section2').inViewport(function(px){
   if(px){
           $(this).addClass("animated fadeInLeft");
@@ -236,7 +237,7 @@ $('.title').inViewport(function(px){
       $(this).addClass("animated fadeIn");
     }
   });
-  
+  */
 
   
     $('.scrollup').click(function () {
