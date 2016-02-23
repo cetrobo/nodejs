@@ -33,13 +33,15 @@ html
         .section-thumb
          img(ng-src="./img/avatar.jpg")
          p.section-contenue {{paragraphe}}
+         
   // Section experience
   section.exp(ng-controller='Section2Controller')
      .container
         h1.title-section2 {{ansexp}}
         h3.exp-title {{exptitle}}
         .line-section2
-        p.aboutme-section2 {{paragraphe2}} 
+        p.aboutme-section2 {{paragraphe2}}
+
   // Section work
   section.work(ng-controller='Section3Controller')
       .container
@@ -52,7 +54,7 @@ html
           img.thumbs(ng-src=("./img/tp.png"))
           img.thumb(ng-src=("./img/ap.png"))
         .title-date {{titledate}}
-        
+
   // Section footer  
   footer(ng-controller='FoooterController')
       .container
