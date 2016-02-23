@@ -15,6 +15,9 @@ html
     script(src='script/controllers.js')
     
   body(ng-app='appCv')
+
+
+  // Section header 
   header(ng-controller='HeaderController')
       .container
         #content
@@ -22,23 +25,23 @@ html
         h1.post-behind {{postbehind}} 
         h2.title {{title1}}
         h2.title {{title2}}
-
-    section(ng-controller='Section1Controller')
+  // Section profile  
+  section(ng-controller='Section1Controller')
       .container
         h3.section-title {{titresection}}
         .line-section
         .section-thumb
          img(ng-src="./img/avatar.jpg")
          p.section-contenue {{paragraphe}}
-
-    section.exp(ng-controller='Section2Controller')
+  // Section experience
+  section.exp(ng-controller='Section2Controller')
      .container
         h1.title-section2 {{ansexp}}
         h3.exp-title {{exptitle}}
         .line-section2
         p.aboutme-section2 {{paragraphe2}} 
-
-    section.work(ng-controller='Section3Controller')
+  // Section work
+  section.work(ng-controller='Section3Controller')
       .container
         h2.title-work {{titlework}}
         .border-works 
@@ -49,8 +52,9 @@ html
           img.thumbs(ng-src=("./img/tp.png"))
           img.thumb(ng-src=("./img/ap.png"))
         .title-date {{titledate}}
-    
-    footer(ng-controller='FoooterController')
+        
+  // Section footer  
+  footer(ng-controller='FoooterController')
       .container
         h2.msg-title {{msgtitle}}
         #social
